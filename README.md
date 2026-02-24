@@ -24,7 +24,7 @@
 ### 1. clone repository
 
 ```bash
-git clone https://github.com/deinusername/aiscan.git
+git clone https://github.com/ChrissWalters/AIScan.git
 cd aiscan
 ```
 
