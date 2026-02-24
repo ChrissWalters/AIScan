@@ -66,13 +66,13 @@ After installation, the CLI command `aiscan` is available.
 ### basic command
 
 ```bash
-aiscan <Ordner>
+aiscan <folder>
 ```
 
 Beispiel:
 
 ```bash
-aiscan ~/Bilder
+aiscan ~/Pictures
 ```
 
 The results are automatically saved in a TXT file in the project folder, e.g.:
