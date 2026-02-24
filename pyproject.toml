@@ -1,0 +1,19 @@
+[project]
+name = "aiscan"
+version = "1.0.0"
+description = "AI Image Workflow Detector"
+authors = [{name="github.com/ChrissWalters"}]
+requires-python = ">=3.9"
+
+dependencies = [
+    "pillow",
+    "piexif",
+    "tqdm"
+]
+
+[project.scripts]
+aiscan = "aiscan.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
