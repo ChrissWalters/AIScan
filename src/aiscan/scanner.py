@@ -3,7 +3,10 @@ import hashlib
 from concurrent.futures import ThreadPoolExecutor
 from .metadata import collect_metadata
 
-SUPPORTED_EXT = (".png", ".jpg", ".jpeg", ".webp")
+SUPPORTED_EXT = (
+    ".png", ".jpg", ".jpeg", ".webp",
+    ".mp4", ".mov", ".mkv", ".webm", ".avi"
+)
 
 
 def file_hash(path):
