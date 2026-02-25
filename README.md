@@ -6,7 +6,7 @@
 ## Features
 
 - Recursive folder search
-- Supports PNG, JPG/JPEG, and WEBP
+- Supports PNG, JPG/JPEG, WEBP, MP4, MOV, MKV, WEBM, AVI
 - AI workflow detection:
   - Automatic1111
   - ComfyUI (including workflow JSON)
@@ -21,11 +21,33 @@
 
 ## Installation
 
+### Requirements
+
+ffmpeg is required for video scanning.
+
+### Linux
+
+```bash
+sudo apt install ffmpeg
+```
+
+### macOS
+
+```bash
+brew install ffmpeg
+```
+
+### Windows
+
+```bash
+https://ffmpeg.org/download.html
+```
+
 ### 1. clone repository
 
 ```bash
 git clone https://github.com/ChrissWalters/AIScan.git
-cd aiscan
+cd AIScan
 ```
 
 ### 2. create virtual envirmoment
@@ -69,7 +91,7 @@ After installation, the CLI command `aiscan` is available.
 aiscan <folder>
 ```
 
-Beispiel:
+Example:
 
 ```bash
 aiscan ~/Pictures
