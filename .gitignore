@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artefacts
+build/
+dist/
+*.egg-info/
+
+# Cache
+.aiscan_cache.json
+
+# Output files
+aiscan_*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
